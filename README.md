@@ -5,12 +5,17 @@ ubuntu 20.04
 ```
 git clone https://github.com/megutamago/MyVim.git && \
 cd MyVim && \
-chmod 755 provision.sh && \
-./provision.sh
+chmod 755 p.sh && \
+./p.sh
 ```
 
 ```
 nvim -> :call dein#install()(update())
+```
+
+```
+chmod 755 p2.sh
+./p2.sh
 ```
 
 ```
