@@ -10,6 +10,10 @@ chmod 755 provision.sh && \
 ```
 
 ```
+nvim -> :call dein#install()(update())
+```
+
+```
 passwd root
 
 echo "user ALL=(ALL:ALL) ALL" >> /etc/sudoers && \
