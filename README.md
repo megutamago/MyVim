@@ -1,5 +1,6 @@
 # MyVim
 
+ubuntu 20.04
 
 ```bash
 git clone https://github.com/megutamago/MyVim.git
