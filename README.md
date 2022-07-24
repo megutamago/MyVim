@@ -1,9 +1,9 @@
 # MyVim
 
 
-'''bash
+```
 git clone 
-'''
+```
 
 
 
