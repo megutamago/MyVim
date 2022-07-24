@@ -14,7 +14,7 @@ nvim -> :call dein#install()(update())
 ```
 
 ```
-chmod 755 p2.sh
+chmod 755 p2.sh && \
 ./p2.sh
 ```
 
