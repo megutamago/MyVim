@@ -4,7 +4,7 @@ ubuntu 20.04
 
 ```
 git clone https://github.com/megutamago/MyVim.git && \
-cd Myvim && \
+cd MyVim && \
 chmod 755 provision.sh && \
 ./provision.sh
 ```
