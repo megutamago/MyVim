@@ -19,6 +19,11 @@ chmod 755 p2.sh
 ```
 
 ```
+nvim -> :q
+nvim -> :call dein#install()(update())
+```
+
+```
 passwd root
 
 echo "user ALL=(ALL:ALL) ALL" >> /etc/sudoers && \
