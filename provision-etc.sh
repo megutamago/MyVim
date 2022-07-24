@@ -1,6 +1,12 @@
 
 #--- etc -----------------------------------------------
-#prezto
+
+# zsh + prezto
+sudo apt install -y zsh
+echo $SHELL
+chsh -s $(which zsh)
+#再ログイン or zsh?
+#rm .bashrc .bash_history .bash_profile
 git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 setopt EXTENDED_GLOB
 for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
