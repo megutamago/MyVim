@@ -1,4 +1,10 @@
 # MyVim
 
 
+'''bash
+git clone 
+'''
+
+
+
 
