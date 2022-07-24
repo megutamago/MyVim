@@ -12,10 +12,9 @@ setopt EXTENDED_GLOB
 for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
   ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
 done
-
-#Powerlevel10k
+# 対話式コマンドで設定
 prompt -s powerlevel10k
-# 対話式コマンド
+
 
 #peco
 apt install -y peco
