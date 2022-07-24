@@ -27,7 +27,3 @@ pip3 install msgpack
 pip3 install pynvim
 
 # nvim -> :call dein#install()(update())
-
-#cp -r Myvim/ ~/.config/
-
-#rm -rf Myvim
