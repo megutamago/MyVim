@@ -3,12 +3,12 @@
 ubuntu 20.04
 
 ```
-passwd root
+sudo passwd root
 
-echo "user ALL=(ALL:ALL) ALL" >> /etc/sudoers && \
-echo "user ALL=NOPASSWD: ALL" >> /etc/sudoers && \
-echo "root ALL=(ALL:ALL) ALL" >> /etc/sudoers && \
-echo "root ALL=NOPASSWD: ALL" >> /etc/sudoers
+sudo echo "user ALL=(ALL:ALL) ALL" >> /etc/sudoers && \
+sudo echo "user ALL=NOPASSWD: ALL" >> /etc/sudoers && \
+sudo echo "root ALL=(ALL:ALL) ALL" >> /etc/sudoers && \
+sudo echo "root ALL=NOPASSWD: ALL" >> /etc/sudoers
 ```
 
 ```
