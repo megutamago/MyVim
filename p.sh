@@ -6,7 +6,7 @@ cp ~/MyVim/.colorrc ~/
 cat >> ~/.bashrc <<EOF
 
 ###Add
-eval /`dircolors ~/.colorrc/`
+eval \`dircolors ~/.colorrc\`
 alias ls='ls --color=auto'
 bash
 
