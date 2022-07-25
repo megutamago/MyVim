@@ -3,6 +3,15 @@
 ubuntu 20.04
 
 ```
+passwd root
+
+echo "user ALL=(ALL:ALL) ALL" >> /etc/sudoers && \
+echo "user ALL=NOPASSWD: ALL" >> /etc/sudoers && \
+echo "root ALL=(ALL:ALL) ALL" >> /etc/sudoers && \
+echo "root ALL=NOPASSWD: ALL" >> /etc/sudoers
+```
+
+```
 git clone https://github.com/megutamago/MyVim.git && \
 cd MyVim && \
 chmod 755 p.sh && \
@@ -21,13 +30,4 @@ chmod 755 p2.sh && \
 ```
 nvim -> :q
 nvim -> :call dein#install()(update())
-```
-
-```
-passwd root
-
-echo "user ALL=(ALL:ALL) ALL" >> /etc/sudoers && \
-echo "user ALL=NOPASSWD: ALL" >> /etc/sudoers && \
-echo "root ALL=(ALL:ALL) ALL" >> /etc/sudoers && \
-echo "root ALL=NOPASSWD: ALL" >> /etc/sudoers
 ```
