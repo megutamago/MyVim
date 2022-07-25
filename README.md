@@ -11,10 +11,12 @@ echo "user ALL=NOPASSWD: ALL" >> /etc/sudoers && \
 echo "root ALL=(ALL:ALL) ALL" >> /etc/sudoers && \
 echo "root ALL=NOPASSWD: ALL" >> /etc/sudoers
 
+apt update -y && apt upgrade -y
 login user
 ```
 
 ```
+cd ~ && \
 git clone https://github.com/megutamago/MyVim.git && \
 cd MyVim && \
 chmod 755 p.sh && \
