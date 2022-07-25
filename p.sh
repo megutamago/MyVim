@@ -4,12 +4,12 @@ cp ~/MyVim/.colorrc ~/
 
 ### color config
 cat >> ~/.bashrc <<EOF
-#
+
 ###Add
-eval `dircolors ~/.colorrc`
+eval /`dircolors ~/.colorrc/`
 alias ls='ls --color=auto'
 bash
-#
+
 EOF
 
 ### dein.vim setting
