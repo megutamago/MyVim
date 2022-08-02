@@ -2,15 +2,6 @@
 
 cp ~/MyVim/.colorrc ~/
 
-### color config
-cat >> ~/.bashrc <<EOF
-
-###Add
-eval \`dircolors ~/.colorrc\`
-alias ls='ls --color=auto'
-
-EOF
-
 ### dein.vim setting
 mkdir ~/.config
 sudo apt install -y python3-dev python3-pip software-properties-common
