@@ -32,6 +32,8 @@ chmod 755 p2.sh && \
 ./p2.sh
 chmod 755 p3.sh && \
 ./p3.sh
+chmod 755 p4.sh && \
+./p4.sh
 ```
 
 ```
