@@ -155,3 +155,9 @@ export VISUAL='vim'
 ## -W ... highlight first unread line after forward movement
 ## (-S ... truncate long lines instead of folding)
 export LESS='-iRW'
+
+# tmux
+alias kill='tmux kill-session'
+if [[ ! "$TERM" =~ "screen" ]]; then
+  tmux -2 attach || tmux -2 new-session \; source-file ~/.tmux/new-session
+fi
