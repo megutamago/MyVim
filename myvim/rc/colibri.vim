@@ -33,6 +33,14 @@ let s:colibri.revolver  = ["#281733", 17]
 " white
 let s:colibri.silver    = ["#CCCCCC", 188]
 let s:colibri.sirocco   = ["#697C81", 66]
+
+
+
+highlight Normal ctermbg=NONE guibg=NONE
+highlight NonText ctermbg=NONE guibg=NONE
+highlight LineNr ctermbg=NONE guibg=NONE
+highlight Folded ctermbg=NONE guibg=NONE
+highlight EndOfBuffer ctermbg=NONE guibg=NONE
 let s:colibri.mint      = ["#9FF28F", 156] " 81EECF / 7FB998 / -- 5fe7b7
 " lilac
 let s:colibri.almond    = ["#ECCDBA", 223]
