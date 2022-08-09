@@ -38,7 +38,6 @@ chmod 755 p2.sh && \
 ./p2.sh
 ```
 ```
-nvim -> :q
 nvim -> :call dein#install()
      -> :call dein#update()
 ```
