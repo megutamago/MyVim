@@ -2,6 +2,13 @@
 
 ubuntu 20.04 (WSL)
 
+
+[powershell]
+```
+wsl -s Ubuntu
+Ubuntu config --default-user root
+```
+
 ```
 sudo su
 passwd root
