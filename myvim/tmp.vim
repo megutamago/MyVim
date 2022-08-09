@@ -40,5 +40,5 @@ runtime! ./rc/options.vim
 runtime! ./rc/keymap.vim
 runtime! ./rc/functions.vim
 runtime! ./rc/lets.vim
-
+runtime! ./rc/colibri.vim
 
