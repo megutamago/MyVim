@@ -34,6 +34,7 @@ chmod 755 p2.sh && \
 ### ※ここでターミナルを再起動
 
 ```
+cd MyVim && \
 chmod 755 p3.sh && \
 ./p3.sh
 
