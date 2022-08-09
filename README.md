@@ -48,6 +48,6 @@ nvim -> :call dein#install()
 chmod 755 p3.sh && \
 ./p3.sh
 
-rm .bashrc .bash_logout
+rm -f .bashrc .bash_logout
 rm -rf MyVim
 ```
