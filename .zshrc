@@ -1,5 +1,3 @@
-# Executes commands at the start of an interactive session.
-
 # ================================
 #  Loading file
 # ================================
@@ -19,7 +17,6 @@ fi
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
-
 
 # ================================
 #  Loading zsh function
@@ -156,12 +153,13 @@ export VISUAL='vim'
 ## (-S ... truncate long lines instead of folding)
 export LESS='-iRW'
 
+
 # tmux
-alias kill='tmux kill-session'
-if [[ ! "$TERM" =~ "screen" ]]; then
-  tmux -2 attach || tmux -2 new-session \; source-file ~/.tmux/new-session
-fi
+#alias kill='tmux kill-session'
+#if [[ ! "$TERM" =~ "screen" ]]; then
+#  tmux -2 attach || tmux -2 new-session \; source-file ~/.tmux/new-session
+#fi
 
 # .colorrc
-eval \`dircolors ~/.colorrc\`
-alias ls='ls --color=auto'
+#eval \`dircolors ~/.colorrc\`
+#alias ls='ls --color=auto'
