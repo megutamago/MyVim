@@ -10,7 +10,6 @@ Ubuntu config --default-user root
 ```
 
 ```
-sudo su
 passwd root
 
 echo "user ALL=(ALL:ALL) ALL" >> /etc/sudoers && \
@@ -19,7 +18,6 @@ echo "root ALL=(ALL:ALL) ALL" >> /etc/sudoers && \
 echo "root ALL=NOPASSWD: ALL" >> /etc/sudoers
 
 apt update -y && apt upgrade -y
-login user
 ```
 
 ```
@@ -51,6 +49,6 @@ cd MyVim && \
 chmod 755 p3.sh && \
 ./p3.sh
 
-sudo rm .bashrc .bash_logout && \
-sudo rm -rf MyVim
+rm .bashrc .bash_logout && \
+rm -rf MyVim
 ```
