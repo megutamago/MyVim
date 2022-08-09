@@ -39,7 +39,8 @@ chmod 755 p2.sh && \
 ```
 ```
 nvim -> :q
-nvim -> :call dein#install()(update())
+nvim -> :call dein#install()
+     -> :call dein#update()
 ```
 
 ### ※ここでターミナルを再起動
