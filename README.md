@@ -31,6 +31,11 @@ nvim -> :call dein#install()(update())
 chmod 755 p2.sh && \
 ./p2.sh
 ```
+```
+nvim -> :q
+nvim -> :call dein#install()(update())
+```
+
 ### ※ここでターミナルを再起動
 
 ```
@@ -40,9 +45,4 @@ chmod 755 p3.sh && \
 
 sudo rm .bashrc .bash_logout && \
 sudo rm -rf MyVim
-```
-
-```
-nvim -> :q
-nvim -> :call dein#install()(update())
 ```
