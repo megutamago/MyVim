@@ -24,7 +24,8 @@ chmod 755 p.sh && \
 ```
 
 ```
-nvim -> :call dein#install()(update())
+nvim -> :call dein#install()
+     -> :call dein#update()
 ```
 
 ```
