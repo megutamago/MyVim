@@ -38,8 +38,8 @@ cd MyVim && \
 chmod 755 p3.sh && \
 ./p3.sh
 
-rm .bashrc .bash_logout
-rm -rf ~/Myvim
+rm .bashrc .bash_logout && \
+rm -rf Myvim
 ```
 
 ```
