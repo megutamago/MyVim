@@ -17,17 +17,15 @@ let &runtimepath = s:dein_repo_dir .",". &runtimepath
 
 let s:toml_file = fnamemodify(expand('<sfile>'), ':h').'/toml/dein.toml'
 let s:toml_file2 = fnamemodify(expand('<sfile>'), ':h').'/toml/dein2.toml'
-let s:toml_file3 = fnamemodify(expand('<sfile>'), ':h').'/toml/dein3.toml'
-let s:toml_file4 = fnamemodify(expand('<sfile>'), ':h').'/toml/denite.toml'
-let s:toml_file5 = fnamemodify(expand('<sfile>'), ':h').'/toml/defx.toml'
+let s:toml_file3 = fnamemodify(expand('<sfile>'), ':h').'/toml/denite.toml'
+let s:toml_file4 = fnamemodify(expand('<sfile>'), ':h').'/toml/defx.toml'
 
 if dein#load_state(s:dein_dir)
   call dein#begin(s:dein_dir)
   call dein#load_toml(s:toml_file) 
   call dein#load_toml(s:toml_file2)
   call dein#load_toml(s:toml_file3) 
-  call dein#load_toml(s:toml_file4) 
-  call dein#load_toml(s:toml_file5)
+  call dein#load_toml(s:toml_file4)
   call dein#end()
   call dein#save_state()
 endif
