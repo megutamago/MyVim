@@ -1,6 +1,6 @@
 # MyVim
 
-ubuntu 20.04
+ubuntu 20.04 (WSL)
 
 ```
 sudo su
@@ -30,7 +30,10 @@ nvim -> :call dein#install()(update())
 ```
 chmod 755 p2.sh && \
 ./p2.sh
+```
+###※ここでターミナルを再起動
 
+```
 chmod 755 p3.sh && \
 ./p3.sh
 
