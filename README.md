@@ -39,7 +39,7 @@ chmod 755 p3.sh && \
 ./p3.sh
 
 sudo rm .bashrc .bash_logout && \
-sudo rm -rf Myvim
+sudo rm -rf MyVim
 ```
 
 ```
