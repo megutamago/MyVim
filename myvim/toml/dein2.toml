@@ -77,5 +77,6 @@ repo = 'jmcantrell/vim-virtualenv'
 [[plugins]]
 repo = 'simeji/winresizer'
 
-
+[[plugins]]
+repo = 'reireias/vim-cheatsheet' 
 
