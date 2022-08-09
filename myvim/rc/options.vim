@@ -17,7 +17,6 @@ set hls
 set hidden
 filetype plugin indent on
 syntax enable
-colorscheme strawberry-dark
 syntax on
 set t_Co=256
 set termguicolors "point
